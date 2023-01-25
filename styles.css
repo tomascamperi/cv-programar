@@ -1,0 +1,94 @@
+*{
+    /* box-sizing: border-box; */
+}
+
+body{
+
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Roboto', sans-serif;
+    background: rgb(8, 1, 41);
+    color: white;  
+}
+
+/* PARTE IZQUIERDA DE LA PANTALLA */
+
+.info-personal{
+    position: absolute;
+    width: 35%;
+}
+
+.img{
+    position: relative;
+    display: block;
+    max-width: 20vw;
+    border-radius: 200px;
+    border: 2px solid white;
+}
+
+.title-user{
+    position: relative;
+    text-align: center;
+    margin-top: 5%;
+    font-size: 3rem;
+}
+
+.container-info-user{
+    
+    position: relative;
+    font-size: 1rem;
+    color: rgb(137, 195, 245);
+}
+
+/* PARTE DERECHA DE LA PANTALLA */
+
+.info-professional{
+    position: absolute;
+    left: 35%;
+    width: 65%;
+    height: 100%;
+    background: rgb(13, 2, 69);
+}
+
+.title-1{
+position: relative;
+margin-top: 2%;
+font-size: 3.5rem;
+text-align: center;
+}
+
+.container-info-training{
+    min-height: 100vh; 
+    position: relative;
+    padding-left: 5%;
+    background: rgb(13, 2, 69);
+}
+
+.title-2{
+    font-size: 2.5rem;
+}
+
+.title-3{
+    font-size: 1.5rem;
+}
+
+.info-training{
+    line-height: 1;
+    color: rgb(137, 195, 245);
+}
+
+.hidden{
+    display: none;
+}
+
+.training-acad3{
+
+    background: rgb(13, 2, 69);
+
+}
+
+.button{
+    font-size: 1rem;
+    padding: 0.6em 1em;
+    border-radius: 50px;
+}
+
